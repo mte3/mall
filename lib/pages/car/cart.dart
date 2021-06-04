@@ -8,6 +8,8 @@ class Car extends StatefulWidget {
 class _CarState extends State<Car> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(  width: 100,
+      height: 100,
+      child: Text('购物城'),);
   }
 }
